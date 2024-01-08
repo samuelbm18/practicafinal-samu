@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>F1.com</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+        content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Estilos CSS-->
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" >
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="styles/colorbox.css" >
+    <link rel="stylesheet" type="text/css" href="styles/slick.css" >
+    <link rel="stylesheet" type="text/css" href="styles/slick-theme.css" >
+    <link rel="stylesheet" type="text/css" href="styles/materialize.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+zEfFV9WlXsq0qDA1Q8w0+3gpxFtfPU5U9bo+SR" crossorigin="anonymous">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-1"></script>
+ <script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-XXXXXXXXX-1');
+ </script>
+
+    
+
+</head>
+
+<body>
+    <!--Cabecera-->
+    <header class="header">
+        <div class="wrapper header__wrapper">
+            <h1 class="logo"><img src="img/logof1.svg"  alt="logo f1"><span
+                    class="visually-hidden">f1icono</span></h1>
+            <!--Burger Menú-->
+            <input class="menu__btn" type="checkbox" id="menu__btn" >
+            <label class="menu__icon" for="menu__btn"><span class="navicon"></span></label>
+            <!--Menú-->
+            <ul class="menu">
+                <li class="menu__item"><a href="index.html">INICIO</a></li>
+                <li class="menu__item"><a href="galeria.html">GALERIA</a></li>
+                <li class="menu__item"><a href="contacto.html">CONTACTOS</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="herobanner">
+        <div class="wrapper">
+            <h2 class="title title--2 herobanner__title colour-white">F1 - EL SITIO WEB OFICIAL DE LA F1 RACING TEAM</h2>
+            <div class="herobanner__video-container">
+                
+                <video style="width:450px ;height: auto" controls autoplay loop muted>
+                    <source src="media/video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="herobanner__arrow"><img src="img/arrow.svg"  alt="flecha scroll"></div>
+        </div>
+    </section>
+    <section class="contact">
+    <div class="wrapper">
+    <h2 class="title title--2 colour-dark-grey">Contact Us</h2>
+    <div class="contact__content">
+        <div class="contact__content-img">
+            <img src="img/movilcontacto.jpg" style="height:450px" alt ="dispositivo móvil" >     
+        </div>
+        <div>
+            
+                <form id="contactForm">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" minlength="3" maxlength="40" pattern="[a-zA-Z\s]+" required>
+                    
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" minlength="4" maxlength="60" pattern="[a-zA-Z\s]+" required>
+                    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" minlength="9" maxlength="9" pattern="[0-9]+" required>
+                    
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea id="comentarios" name="comentarios"></textarea>
+                    <div class="button-container">
+                        <button class="submit-button">Enviar</button>
+                        <button class="clear-button">Limpiar</button>
+                      </div>
+                  </form>
+
+          
+
+                
+
+              
+           
+           
+        </div>
+        <div>
+            <ul class="contact__data">
+                 <li><img src="img/location.png"  alt="icono localizacion"><span class="contact__data-text">Englewood,New Jersey(USA)</span></li>
+                 <li><img src="img/mail.png"  alt="icono email"><span class="contact__data-text">f1@gmail.com</span></li>
+                 <li><img src="img/phone.png"  alt="icono telefono"><span class="contact__data-text">+1 (877) 772-1518</span></li>
+            </ul> 
+        </div>      
+        </div>
+    </div>
+</section>
+<section class="location">
+    
+    <div id="map" class="map"> 
+        
+    </div>
+</section>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__content">
+            <p class="paragraph">Copyright © 2024 -WEB OFICIAL F1.COM</p>
+            <ul class="footer__utilities">
+                
+                <li>
+                    <a href="https://www.facebook.com/Formula1/">
+                        <img class="footer__social-icon" src="img/facebook.png" alt="Facebook" >
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/f1">
+                        <img class="footer__social-icon" src="img/twitter.png"  alt="Twitter" >
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/formula-one-management-ltd">
+                        <img class="footer__social-icon" src="img/linkedin.png" alt="Instagram" >
+                    </a>
+                </li>
+                <li>
+                    <a id="iframe-legal" href="legal.html" class="footer__legal" target="mywindow">TERMINOS Y CONDICIONES LEGALES<span class="visually-hidden">terminos y condiciones legales</span></a>
+
+                </li>
+                <li>
+                    <a href="index.html">
+                        <img id="btn-up" class="footer__arrow" src="img/arrow-up.png" alt="flecha para subir al principio de la página">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<!--Javascript-->
+<script src="scripts/main.js"></script>
+<script src="scripts/lib/TweenMax.min.js"></script>
+<script src="scripts/lib/ScrollMagic.min.js"></script>
+<script src="scripts/lib/jquery-3.5.0.min.js"></script>
+<script src="scripts/lib/jquery.colorbox-min.js"></script>
+<script src="scripts/lib/slick.js"></script>
+<script src="scripts/lib/materialize.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7YZ5zEa1Yl2wJ2SNhynLaR3EKcUYt1IM&callback=initMap"
+async defer></script>
+
+
+</body>
+
+</html>

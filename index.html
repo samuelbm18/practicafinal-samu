@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>F1.com</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+        content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Estilos CSS-->
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" >
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="styles/colorbox.css" >
+    <link rel="stylesheet" type="text/css" href="styles/slick.css" >
+    <link rel="stylesheet" type="text/css" href="styles/slick-theme.css" >
+    <link rel="stylesheet" type="text/css" href="styles/materialize.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+zEfFV9WlXsq0qDA1Q8w0+3gpxFtfPU5U9bo+SR" crossorigin="anonymous">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-1"></script>
+ <script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-XXXXXXXXX-1');
+ </script>
+
+    
+
+</head>
+
+<body>
+    <!--Cabecera-->
+    <header class="header">
+        <div class="wrapper header__wrapper">
+            <h1 class="logo"><img src="img/logof1.svg"  alt="logo f1"><span
+                    class="visually-hidden">f1icono</span></h1>
+            <!--Burger Menú-->
+            <input class="menu__btn" type="checkbox" id="menu__btn" >
+            <label class="menu__icon" for="menu__btn"><span class="navicon"></span></label>
+            <!--Menú-->
+            <ul class="menu">
+                <li class="menu__item"><a href="index.html">INICIO</a></li>
+                <li class="menu__item"><a href="galeria.html">GALERIA</a></li>
+                <li class="menu__item"><a href="contacto.html">CONTACTOS</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="herobanner" id="portada">
+        <div class="wrapper">
+            <h2 class="title title--2 herobanner__title colour-white">F1 - EL SITIO WEB OFICIAL DE LA F1 RACING TEAM</h2>
+            <div class="herobanner__video-container">
+                
+                <video style="width:450px ;height: auto" controls autoplay loop muted>
+                    <source src="media/video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="herobanner__arrow"><img src="img/arrow.svg"  alt="flecha scroll" ></div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="wrapper" id="inicio">
+            <h2 class="title title--2 colour-dark-grey">CARDS CON INFO F1</h2>
+            <h3 class="title title--3 colour-dark-grey">La mejor competicion automovilistica del mundo</h3>
+            <div class="features__content">
+                <div class="features__list-container">
+                    <ul class="features__list features__container-element">
+                        <li class="features__list-element">
+                            <div class="features__icon"><img src="img/motor.jpg" style="width:150px"  alt="icono dispositivos">
+                            </div>
+                            <div class="features__text">
+                                <h4 class="features__title title--3 left-alignment">MOTORES</h4>
+                                <p class="paragraph features__text">Los monoplazas cuentan con motores V6 1.6 turno híbrido.  </p>
+                            </div>
+                        </li>
+                        <li class="features__list-element">
+                            <div class="features__icon"><img src="img/neumatico.jpg" style="width:150px" alt="icono dispositivos">
+                            </div>
+                            <div class="features__text">
+                                <h4 class="features__title title--3 left-alignment">NEUMATICOS</h4>
+                                <p class="paragraph features__text"> Pirelli es el suministrador de neumáticos en la Fórmula 1.Poseen 18 pulgadas de diámetro,presentan tres compuestos de seco diferentes (Blando,Medio,Duro), uno de condiciones mixtas y el neumático de lluvia extrema.</p>
+                            </div>
+                        </li>
+                        <li class="features__list-element">
+                            <div class="features__icon"><img src="img/formato.jpg" style="width:150px; height:120px"  alt="icono dispositivos" >
+                            </div>
+                            <div class="features__text">
+                                <h4 class="features__title title--3 left-alignment">FORMATO</h4>
+                                <p class="paragraph features__text">Consta de 26 GRANDES PREMIOS con un formato de clasificacion en cada uno.</p>
+                            </div>
+                        </li>
+                        <li class="features__list-element">
+                            <div class="features__icon"><img src="img/fia.jpg" style="width:150px"   alt="icono dispositivos" >
+                            </div>
+                            <div class="features__text">
+                                <h4 class="features__title title--3 left-alignment">FIA</h4>
+                                <p class="paragraph features__text">La FIA corresponde a las siglas de la Federación Internacional del Automóvil, fundada en 1904 con el ánimo de representar a las organizaciones de coches, así como a los usuarios de los mismos. </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <div class="features__img features__container-element">
+                        <picture>
+                            <source media="(min-width:640px)" srcset="img/fondogrande.jpg">
+                            <img src="img/fondo-xs.jpg" alt="fondo-xs">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="advantages">
+        <div class="wrapper">
+            <div class="advantages__content">
+                <h2 class="title title--2 colour-white">CARRUSEL DE CAMPEONES DEL MUNDO F1</h2>
+                <p class="paragraph advantages__text">Aqui os mostramos a los campeones del mundo. </p>
+                <ul class="advantages__list center-alignment advantages__carousel">
+                    <li class="advantages__card">
+                        <h3 class="advantages__card-title title--3 center-alignment">FERNANDO ALONSO</h3>
+                        <div class="advantages__card-icon"><img src="img/ALONSO.jpg" style="width:200px" alt="icono seguridad" > </div>
+                            <h4 class="advantages__card-subtitle title title--4 center-alignment">RENAULT
+                            </h4>
+                            <p class="paragraph advantages__card-text colour-white center-alignment"> 2 VECES GANADOR 2005,2006</p>
+                           
+                    </li>
+                    <li class="advantages__card">
+                        <h3 class="advantages__card-title title--3 center-alignment">KIMI RAIKONNEN</h3>
+                        <div class="advantages__card-icon"><img src="img/KIMI.jpg" style="width:200px" alt="icono seguridad" ></div>
+                            <h4 class="advantages__card-subtitle title title--4 center-alignment">FERRARI
+                            </h4>
+                            <p class="paragraph advantages__card-text colour-white center-alignment"> 1 VEZ GANADOR 2007</p>
+                           
+                    </li>
+                    <li class="advantages__card">
+
+                        <h3 class="advantages__card-title title--3 center-alignment">LEWIS HAMILTON</h3>
+                        <div class="advantages__card-icon"><img src="img/HAMILTON1.jpg" style="width:180px" alt="icono seguridad" ></div>
+                            <h4 class="advantages__card-subtitle title title--4 center-alignment">MCLAREN
+                            </h4>
+                            <p class="paragraph advantages__card-text colour-white center-alignment"> 1 VEZ GANADOR 2008</p>
+                           
+                    </li>
+                    <li class="advantages__card">
+                        <h3 class="advantages__card-title title--3 center-alignment">JENSON BUTTON</h3>
+                        <div class="advantages__card-icon"><img src="img/JENSON.jpg" style="width:200px" alt="icono seguridad" ></div>
+                            <h4 class="advantages__card-subtitle title title--4 center-alignment">BRAWN GP
+                            </h4>
+                            <p class="paragraph advantages__card-text colour-white center-alignment"> 1 VEZ GANADOR 2009</p>
+                           
+                    </li>
+                    <li class="advantages__card">
+                        <h3 class="advantages__card-title title--3 center-alignment">SEBASTIAN VETTEL</h3>
+                        <div class="advantages__card-icon"><img src="img/VETTEL.jpg" style="width:200px" alt="icono seguridad" ></div>
+                            <h4 class="advantages__card-subtitle title title--4 center-alignment">REDBULL RACING TEAM
+                            </h4>
+                            <p class="paragraph advantages__card-text colour-white center-alignment"> 4 VECES GANADOR 2010,2011,2012,2013</p>
+                           
+                    </li>
+                    <li class="advantages__card">
+                        <h3 class="advantages__card-title title--3 center-alignment">LEWIS HAMILTON </h3>
+                        <div class="advantages__card-icon"><img src="img/HAMITONMERCEDES.jpg" style="width:200px" alt="icono seguridad" ></div>
+                            <h4 class="advantages__card-subtitle title title--4 center-alignment">MERCEDES</h4>
+                            <p class="paragraph advantages__card-text colour-white center-alignment">2 VECES GANADOR 2014,2015</p>
+                           
+                    </li>
+                    <li class="advantages__card">
+                        <h3 class="advantages__card-title title--3 center-alignment">NICO ROSBERG</h3>
+                        <div class="advantages__card-icon"><img src="img/NIKO.jpg" style="width:180px" alt="icono seguridad" ></div>
+                            <h4 class="advantages__card-subtitle title title--4 center-alignment">MERCEDES
+                            </h4>
+                            <p class="paragraph advantages__card-text colour-white center-alignment">1 VEZ GANADOR 2016</p>
+                           
+                    </li>
+                    <li class="advantages__card">
+                        <h3 class="advantages__card-title title--3 center-alignment">LEWIS HAMILTON</h3>
+                        <div class="advantages__card-icon"><img src="img/HAMITONMERCEDES.jpg" style="width:180px" alt="icono seguridad" ></div>
+                            <h4 class="advantages__card-subtitle title title--4 center-alignment">MERCEDES
+                            </h4>
+                            <p class="paragraph advantages__card-text colour-white center-alignment">4 VECES GANADOR 2017,2018,2019,2020</p>
+                            
+                    </li>
+                    <li class="advantages__card">
+                        <h3 class="advantages__card-title title--3 center-alignment">MAX VERSTAPPEN</h3>
+                        <div class="advantages__card-icon"><img src="img/MAX1.jpg"  style="width:180px" alt="icono seguridad" ></div>
+                            <h4 class="advantages__card-subtitle title title--4 center-alignment">REDBULL RACING TEAM
+                            </h4>
+                            <p class="paragraph advantages__card-text colour-white center-alignment">3 VECES GANADOR 2021,2022,2023</p>
+                            
+                    </li>
+                  </ul>  
+                  
+            </div>
+        </div>
+    </section>
+
+
+
+    
+      <!--Javascript-->
+      <script src="scripts/main.js"></script>
+    
+    <script src="scripts/lib/ScrollMagic.min.js"></script>
+    <script src="scripts/lib/jquery-3.5.0.min.js"></script>
+    <script src="scripts/lib/jquery.colorbox-min.js"></script>
+    <script src="scripts/lib/slick.js"></script>
+    <script src="scripts/lib/materialize.min.js"></script>
+
+    
+    
+      
+  
+   
+    <section class="about-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Me bootstrap F1</h2>
+                    <p>
+                        El inicio de la Fórmula 1 se remonta al año 1950, cuando la Federación Internacional del Automóvil (FIA) anunció la unión de varios Grandes Premios nacionales -con sede en París (Francia)- para crear un Campeonato Mundial de Pilotos.
+
+Ferrari, Alfa Romeo y Maserati eran las escuderías que entonces convivían y el primer Gran Premio se realizó el 13 de mayo de aquel año en el circuito de Silverstone. El italiano Giuseppe Farina fue el primer vencedor, que además consiguiera el primer Mundial de F1.
+                    </p>
+                    <p>
+                        Los Grandes Premios tienen sus orígenes en las carreras automovilísticas surgidas en la misma Francia en 1894. Entonces se trataban de eventos individuales, sin conexión y en caminos de tierra, prácticamente sin ninguna norma.
+
+Ya de 1927 a 1934, el número de pruebas creció hasta alcanzar dieciocho en ese último año, el máximo antes de la Segunda Guerra Mundial, que frenó el crecimiento.Justo después del  conflicto bélico solo hubo cuatro carreras, pero ya se habían establecido una serie de reglas para las competiciones de Grand Prix, que debían obedecer tanto coches como pilotos. Se llamaron Fórmula, aunque no se concretaron hasta 1947 cuando la antigua AIACR se reorganizó pasándose a llamar la FIA.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/historia.jpg" alt="Profile Picture" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    
+        
+ 
+    
+    
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__content">
+                <p class="paragraph">Copyright © 2024 -WEB OFICIAL F1.COM</p>
+                <ul class="footer__utilities">
+                    
+                    <li>
+                        <a href="https://www.facebook.com/Formula1/">
+                            <img class="footer__social-icon" src="img/facebook.png" alt="Facebook" >
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/f1">
+                            <img class="footer__social-icon" src="img/twitter.png"  alt="Twitter" >
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/formula-one-management-ltd">
+                            <img class="footer__social-icon" src="img/linkedin.png" alt="Instagram" >
+                        </a>
+                    </li>
+                    <li>
+                        <a id="iframe-legal" href="legal.html" class="footer__legal" target="mywindow">TERMINOS Y CONDICIONES LEGALES<span class="visually-hidden">terminos y condiciones legales</span></a>
+
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <img id="btn-up" class="footer__arrow" src="img/arrow-up.png" alt="flecha para subir al principio de la página">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+ 
+  
+ 
+
+</body>
+
+</html>
